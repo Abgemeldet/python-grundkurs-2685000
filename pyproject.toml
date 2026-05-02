@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bank-account"
+version = "0.1.0"
+description = "BankAccount Beispielprojekt"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
